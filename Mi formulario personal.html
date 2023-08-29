@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Agenda tu cita</h1>
+    <br>
+    <br>
+    <form action="Procesar_formulario" method="post">Nombre completo del paciente</form>
+   <br>
+   <input type="text" name="nombre" placeholder="Ej.Juanito Manzanas">
+   <br>
+   <br>
+   <form action="Procesar_formulario" method="post">Edad</form>
+   <input type="number" name="numero">
+   <br>
+   <br>
+   <form action="Procesar_formulario" method="post">Fecha de nacimiento</form>
+   <input type="date" name="fecha">
+   <br>
+   <br>
+   <form action="Procesar_formulario" method="post">E-mail</form>
+   <input type="text" name="nombre" placeholder="Ej.diente@gmail.com">
+   <br>
+   <br>
+
+   <form action="Procesar_formulario" method="post">Ingresar contraseña de E-mail</form>
+   <input type="password" name="contraseña">
+   <button type="submit">Enviar</button>
+   <button type="submit">Restablecer Contraseña</button>
+   <br>
+   <br>
+   <form action="Procesar_formulario" method="post">Teléfono</form>
+   <input type="number" name="numero">
+   <br>
+   <br>
+<h4>Servicio de la clínica</h4>
+<select name="nombres" id="servicios">
+    <option value="Consulta de valoración">Consulta de valoración</option>
+    <option value="Limpieza dental">Limpieza dental</option>
+    <option value="Extracción de muelas del juicio">Extracción de muelas del juicio</option>
+    <option value="Periodoncia">Periodoncia</option>
+    <option value="Maxilofacial">Maxilofacial</option>
+    <option value="Blanqueamiento dental">Blanqueamiento dental</option>
+    <option value="Colocación de brackets">Colocación de brackets</option>
+    </select>
+    <br>
+    <br>
+    <h4>Seleccione fecha de su cita</h4>
+    <input type="date" name="fecha">
+    <h4>Selecione hora de su cita</h4>
+    <input type="time" name="hora">
+    <br>
+    <br>
+<form action="Procesar_formulario" method="post">Cuentanos como podemos mejorar su servicio</form>
+   <textarea name="comentario" id="comentario" cols="50" rows="5"></textarea>
+</body>
+</html>
